@@ -1,4 +1,15 @@
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */
 package pkg6.pkg3;
 
 import java.awt.Component;

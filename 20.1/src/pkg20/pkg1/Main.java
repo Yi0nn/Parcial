@@ -1,4 +1,15 @@
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */
 package pkg20.pkg1;
 
 public class Main {
