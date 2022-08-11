@@ -13,11 +13,6 @@ Codigo: 202125854
 package pkg10.pkg1;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Mi pc
- */
 public class Main {
 
     public static void main(String[] args) {

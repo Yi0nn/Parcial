@@ -14,16 +14,8 @@ package pkg1.pkg2;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
-
-/**
- *
- * @author Mi pc
- */
 public class Usos_Personas {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         
@@ -51,7 +43,18 @@ public class Usos_Personas {
         public abstract String getDescripcion();
         private String nombre;
     }
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */
     class Empleado2 extends Persona{
         public Empleado2(String nom, double sue, int agno, int mes, int dia){
            super(nom);
@@ -85,7 +88,18 @@ public class Usos_Personas {
         private  int id;
         private  static int nextId;
 }
-    
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
+
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */    
     class Alumno extends Persona{
         public Alumno(String nom, String car){
             super(nom);

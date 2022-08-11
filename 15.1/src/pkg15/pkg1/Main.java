@@ -11,18 +11,8 @@ Curso Pildoras Informaticas
 Codigo: 202125854
  */
 package pkg15.pkg1;
-
 import javax.swing.JOptionPane;
-
-/**
- *
- * @author Mi pc
- */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         boolean arroba=false;
         String mail=JOptionPane.showInputDialog("Introduce mail");

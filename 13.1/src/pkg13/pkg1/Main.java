@@ -13,19 +13,8 @@ Codigo: 202125854
 package pkg13.pkg1;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Mi pc
- */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
         int aleatorio=(int)(Math.random()*100);
         Scanner entrada=new Scanner(System.in);
         int numero=0;

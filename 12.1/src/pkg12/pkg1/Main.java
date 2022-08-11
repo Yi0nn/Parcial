@@ -13,16 +13,7 @@ Codigo: 202125854
 package pkg12.pkg1;
 
 import javax.swing.JOptionPane;
-
-/**
- *
- * @author Mi pc
- */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         String clave="Stefhania";
         String pass="";

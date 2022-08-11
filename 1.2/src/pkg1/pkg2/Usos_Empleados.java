@@ -15,16 +15,7 @@ package pkg1.pkg2;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.GregorianCalendar;
-
-/**
- *
- * @author Mi pc
- */
 public class Usos_Empleados {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         /*Empleado empleado1 = new Empleado("Veronica lizz", 90000, 2000, 9, 22);
@@ -50,11 +41,7 @@ public class Usos_Empleados {
         misEmpleados[5] = new Jefatura("Lau", 90000, 2000, 3, 18);
         Jefatura jefa_Finanzas = (Jefatura) misEmpleados[5];
         jefa_Finanzas.setIncentivo(8000);        
-        
-        //Video 50
         System.out.println(jefa_Finanzas.tomar_decisiones("Dar más días de vaciones a los empleados"));
-        
-        //Video 51
         System.out.println("El Jefe " + jefa_Finanzas.getNombre() + " tiene un bonus de: " + jefa_Finanzas.establece_bonus(700));
         System.out.println(misEmpleados[3].getNombre() + " tiene un bonus de: " + misEmpleados[3].establece_bonus(300));
         
@@ -75,6 +62,18 @@ public class Usos_Empleados {
         }
     }
 }
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
+
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */
     
 class Empleado implements Comparable, Trabajadores {
         public Empleado(String nom, double sue, int agno, int mes, int dia){
@@ -86,13 +85,10 @@ class Empleado implements Comparable, Trabajadores {
            nextId++;
         }
         
-        //video 51
         public double establece_bonus(double gratificacion){
             return Trabajadores.bonus_base + gratificacion;
         }
-               
-        //Sobrecarga de constructores - video 39
-        
+
         public Empleado (String nom){
             this(nom, 30000, 2000, 1, 2 );
         }
@@ -114,7 +110,6 @@ class Empleado implements Comparable, Trabajadores {
             sueldo += aumento;
         }
         
-        //Video 49 - interfaces
         public int compareTo(Object miObjeto){
             Empleado otroEmpleado = (Empleado) miObjeto;
             if (this.sueldo<otroEmpleado.sueldo){
@@ -134,9 +129,18 @@ class Empleado implements Comparable, Trabajadores {
     
 }
 
-//Video 42 - Herencia 
-//Video 43,44,45 -Polimorfismo
+/*
+ ──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 
+Stefhania Noguera Romero
+
+Curso Pildoras Informaticas 
+
+Codigo: 202125854
+ */
 class Jefatura extends Empleado implements Jefes{
     
     public Jefatura(String nom, double sue, int agno, int mes, int dia) {

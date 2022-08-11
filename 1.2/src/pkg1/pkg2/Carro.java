@@ -12,10 +12,6 @@ Codigo: 202125854
  */
 package pkg1.pkg2;
 
-/**
- *
- * @author Mi pc
- */
 public class Carro {
     private int ruedas;
     private int largo;
